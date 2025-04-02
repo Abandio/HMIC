@@ -47,7 +47,7 @@ for idx = 1:length(dataNames)
     
     for k = 1
 
-    for seed = 1000: 100:10000
+    for seed = 100
         rand('seed',seed)
         for i = 1: length(alpha)
             for j = 1 :length(beta)
